@@ -1,7 +1,7 @@
 package com.hoteldekho.hotelservice.service;
 
 import com.hoteldekho.hotelservice.entities.Hotel;
-import org.springframework.stereotype.Service;
+
 
 import java.util.List;
 

@@ -13,7 +13,7 @@ public class GlobalExceptionHandler {
 @ExceptionHandler(NoResourceFoundException.class)
 public ResponseEntity<Map<String,Object>> handleNoResourceFoundException(NoResourceFoundException ex) {
 
-    Map map = new HashMap();
+    Map<String,Object> map = new HashMap<>();
     map.put("message", ex.getMessage());
     map.put("success" , false);
     map.put("status", HttpStatus.NOT_FOUND);
